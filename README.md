@@ -35,61 +35,47 @@ web site</a>:
 
 ## Loading the data
 
+* The text data file is read and the resultant dataset has 2,075,259 rows and 9 columns. 
 
+* A subset of the above data for the dates 2007-02-01 and
+2007-02-02 is taken. 
 
+* The packages lubridate and data.table are used to read, subset and modify data.
 
-
-When loading the dataset into R, please consider the following:
-
-* The dataset has 2,075,259 rows and 9 columns. First
-calculate a rough estimate of how much memory the dataset will require
-in memory before reading into R. Make sure your computer has enough
-memory (most modern computers should be fine).
-
-* We will only be using data from the dates 2007-02-01 and
-2007-02-02. One alternative is to read the data from just those dates
-rather than reading in the entire dataset and subsetting to those
-dates.
-
-* You may find it useful to convert the Date and Time variables to
-Date/Time classes in R using the `strptime()` and `as.Date()`
-functions.
-
-* Note that in this dataset missing values are coded as `?`.
+* The missing values coded as `?` in the dataset are replaced with NA.
 
 
 ## Making Plots
 
-Our overall goal here is simply to examine how household energy usage
-varies over a 2-day period in February, 2007. Your task is to
-reconstruct the following plots below, all of which were constructed
+The plots say how household energy usage varies over a 2-day period 
+in February, 2007. All the plots are constructed
 using the base plotting system.
 
-First you will need to fork and clone the following GitHub repository:
+The following GitHub repository:
 [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
+has been forked and cloned.
+
+The R files namely Plot1, Plot2, Plot3, Plot4  and their corresponding 
+png files namely Plot1.png, Plot2.png, Plot3.png, Plot4.png 
+are added to the above mentioned forked repository.
 
 
-For each plot you should
 
-* Construct the plot and save it to a PNG file with a width of 480
-pixels and a height of 480 pixels.
+## PNG Files
 
-* Name each of the plot files as `plot1.png`, `plot2.png`, etc.
+* Each png file is of the width 480 and height 480.
 
-* Create a separate R code file (`plot1.R`, `plot2.R`, etc.) that
-constructs the corresponding plot, i.e. code in `plot1.R` constructs
-the `plot1.png` plot. Your code file **should include code for reading
-the data** so that the plot can be fully reproduced. You should also
-include the code that creates the PNG file.
+* Name each of the plot file is the same as of its R file. 
+  Example Plot1.R constructs Plot1.png, 
+  Plot2.R constructs Plot2.png and so on.
 
-* Add the PNG file and R code file to your git repository
-
-When you are finished with the assignment, push your git repository to
-GitHub so that the GitHub version of your repository is up to
-date. There should be four PNG files and four R code files.
+* Each R file assumes that the text data file called 'household_power_consumption'
+  is stored in the same dirctory as the R file.
 
 
-The four plots that you will need to construct are shown below. 
+## Plot Files for refernce
+
+The below four plots are for refernce.  
 
 
 ### Plot 1
