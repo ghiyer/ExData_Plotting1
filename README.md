@@ -72,11 +72,19 @@ are added to the above mentioned forked repository.
 * Each R file assumes that the text data file called 'household_power_consumption'
   is stored in the same dirctory as the R file.
 
+* Plot1.png - A histogram showing the Global Active Power in Kilowatts
+* Plot2.png - A line graph showing the Global Active Power in Kilowatts against Date/Time
+* Plot3.png - A line graph showing the Energy Sub Metering against Date/Time
+* Plot4.png - A chart containg 4 different graphs namely
+              TopLeft - A line graph showing the Global Active Power in Kilowatts against Date/Time
+              TopRight - A line graph showing the Voltage against Date/Time
+              BottomLeft - A line graph showing the Energy Sub Metering against Date/Time
+              BottomRight - A line graph showing the Global Reactive Power in Kilowatts against Date/Time
+
 
 ## Plot Files for refernce
 
 The below four plots are for refernce.  
-
 
 ### Plot 1
 
