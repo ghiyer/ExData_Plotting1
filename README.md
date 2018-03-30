@@ -65,7 +65,7 @@ are added to the above mentioned forked repository.
 
 * Each png file is of the width 480 and height 480.
 
-* Name each of the plot file is the same as of its R file. 
+* The name of each of the plot file is the same as of its R file. 
   Example Plot1.R constructs Plot1.png, 
   Plot2.R constructs Plot2.png and so on.
 
